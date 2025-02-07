@@ -97,7 +97,7 @@
     window.onload = () => {
       document.getElementById("download").addEventListener("click", (e) => {
         //The value of the file name input box
-        const filename = document.getElementById("filename").value;
+        const filename = document.getElementById("filename").value + ".txt";
 
         //The value of what has been input in the textarea
         const content = document.getElementById("text").value;
